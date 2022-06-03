@@ -1,0 +1,31 @@
+
+    body {
+        font-size: 48px;
+    }
+
+
+  @media only screen and (min-width: 769px) {
+    body {
+        font-size: 72px;
+    }
+  }
+
+
+.blocks {
+    width: 100%;
+    min-width: 200px;
+    height: 350px;
+    background-color: bisque;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-top: 16px;
+
+}
+
+.row {
+    margin-left: 16px;
+    margin-right: 16px;
+}
